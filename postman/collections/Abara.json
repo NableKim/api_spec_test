@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "ce1ab153-d77a-4d81-9859-d6c193b4ea8f",
+		"_postman_id": "1b4bdacf-af8f-4a3d-aa43-fb6dc403c122",
 		"name": "\bAbara",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "26725881-ce1ab153-d77a-4d81-9859-d6c193b4ea8f"
+		"_uid": "26725881-1b4bdacf-af8f-4a3d-aa43-fb6dc403c122"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "e72b3013-73ec-4b87-8c8d-554807f1f080",
+								"id": "dc41813b-ea24-42da-804d-997adeed189b",
 								"exec": [
 									"console.log(pm.collectionVariables.get(\"aaaa\"));"
 								],
@@ -25,7 +25,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "14ec34c0-4d2e-4216-9611-05566cdd2bbd",
+								"id": "a4ceecf8-f82c-4ba0-b930-4eda67fe4279",
 								"exec": [
 									"console.log(pm.collectionVariables.get(\"aaaa\"));"
 								],
@@ -33,7 +33,7 @@
 							}
 						}
 					],
-					"id": "5a6094dc-595a-4545-ab0c-5c896c8db51f",
+					"id": "0630c931-6d11-4734-b679-58e0defdc854",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -80,7 +80,7 @@
 					},
 					"response": [
 						{
-							"id": "bea4cc23-dc63-4bbd-9993-2366b8c7f41a",
+							"id": "29bab017-a7ba-42cc-993a-cf56ead562fd",
 							"name": "주문 조회",
 							"originalRequest": {
 								"method": "GET",
@@ -126,6 +126,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "html",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Server",
@@ -191,7 +192,7 @@
 				},
 				{
 					"name": "주문 생성",
-					"id": "52224137-48f3-4673-a67b-5f959facb62b",
+					"id": "d27a0b0b-d09f-4384-8510-ffdcc092df5a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -206,7 +207,7 @@
 				},
 				{
 					"name": "주문 확인",
-					"id": "186ef429-989e-41a1-b8ea-e17637ff500e",
+					"id": "842aef36-55aa-4c73-abdc-b589fea0e94b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -221,7 +222,7 @@
 				},
 				{
 					"name": "주문 삭제",
-					"id": "51340398-2403-41e8-9799-6d0ea5616937",
+					"id": "abc55dc7-e6e7-4f63-9b94-9ea113477aa8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -235,12 +236,12 @@
 					"response": []
 				}
 			],
-			"id": "141a246d-3c37-4c86-94c2-ffe9ffeb74fc",
+			"id": "7e3b253a-f465-48cd-8de9-db1e3e7d647f",
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "c76c9c09-c89f-46d3-802d-c7d7c280eb27",
+						"id": "1f39bced-bd7f-433f-ade8-9eba1b5fd21a",
 						"type": "text/javascript",
 						"exec": [
 							"console.log(pm.collectionVariables.get(\"aaaa\"));"
@@ -250,7 +251,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "bbb30182-e1db-4871-8ec2-3dd5277a770b",
+						"id": "737206d4-7a76-4a3d-b599-a737f19cef67",
 						"type": "text/javascript",
 						"exec": [
 							"console.log(pm.collectionVariables.get(\"aaaa\"));"
@@ -262,14 +263,14 @@
 		{
 			"name": "Agency",
 			"item": [],
-			"id": "866c6ff4-33ea-473e-8358-20d7e760a4ad"
+			"id": "d3387a38-a3fb-48d5-a984-3912efa38117"
 		}
 	],
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "6525c494-9324-44c4-a47d-6718ef2ca26e",
+				"id": "8d6b3a36-f457-45b4-86ad-d380a76ded33",
 				"type": "text/javascript",
 				"exec": [
 					"console.log(pm.collectionVariables.get(\"aaaa\"));"
@@ -279,7 +280,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4208c862-6a01-4523-b78d-42cda8a5f7f6",
+				"id": "66ed0fc6-6df1-40a5-8405-112622b089a6",
 				"type": "text/javascript",
 				"exec": [
 					"console.log(pm.collectionVariables.get(\"aaaa\"));"
