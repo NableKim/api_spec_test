@@ -63,7 +63,7 @@
 							}
 						},
 						"url": {
-							"raw": "www.naver.com?param1={{aaaa}}",
+							"raw": "www.naver.com?param1={{aaaa}}&param2=param2",
 							"host": [
 								"www",
 								"naver",
@@ -74,6 +74,12 @@
 									"key": "param1",
 									"value": "{{aaaa}}",
 									"description": "param1"
+								},
+								{
+									"key": "param2",
+									"value": "param2",
+									"description": "param2",
+									"type": "text"
 								}
 							]
 						}
@@ -126,7 +132,6 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "html",
-							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Server",
