@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "1b4bdacf-af8f-4a3d-aa43-fb6dc403c122",
+		"_postman_id": "6f478132-ae5a-434e-b219-1457b7a29883",
 		"name": "\bAbara",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "26725881-1b4bdacf-af8f-4a3d-aa43-fb6dc403c122"
+		"_uid": "26725881-6f478132-ae5a-434e-b219-1457b7a29883"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "dc41813b-ea24-42da-804d-997adeed189b",
+								"id": "de91900d-89b5-4d34-a1b2-665756c6cbb2",
 								"exec": [
 									"console.log(pm.collectionVariables.get(\"aaaa\"));"
 								],
@@ -25,7 +25,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "a4ceecf8-f82c-4ba0-b930-4eda67fe4279",
+								"id": "23004c2a-2f9a-4c92-8300-46d9b6fe3533",
 								"exec": [
 									"console.log(pm.collectionVariables.get(\"aaaa\"));"
 								],
@@ -33,7 +33,7 @@
 							}
 						}
 					],
-					"id": "0630c931-6d11-4734-b679-58e0defdc854",
+					"id": "ed60ecdd-8ddc-401a-90b6-05aa2e61ba57",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -80,7 +80,7 @@
 					},
 					"response": [
 						{
-							"id": "29bab017-a7ba-42cc-993a-cf56ead562fd",
+							"id": "af355b77-1aff-4333-9b81-9fa0775a3e02",
 							"name": "주문 조회",
 							"originalRequest": {
 								"method": "GET",
@@ -192,7 +192,7 @@
 				},
 				{
 					"name": "주문 생성",
-					"id": "d27a0b0b-d09f-4384-8510-ffdcc092df5a",
+					"id": "aaf0a564-505a-4930-aebb-db468703c3cd",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -207,7 +207,7 @@
 				},
 				{
 					"name": "주문 확인",
-					"id": "842aef36-55aa-4c73-abdc-b589fea0e94b",
+					"id": "b47571f9-9a2f-4d5c-ab8d-e4d2db1cad30",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -222,7 +222,7 @@
 				},
 				{
 					"name": "주문 삭제",
-					"id": "abc55dc7-e6e7-4f63-9b94-9ea113477aa8",
+					"id": "3d4d905e-22ff-4c62-84dc-43cbdaac892e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -236,12 +236,12 @@
 					"response": []
 				}
 			],
-			"id": "7e3b253a-f465-48cd-8de9-db1e3e7d647f",
+			"id": "74968b66-e9a2-4ce7-8e4d-6be658d7f182",
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "1f39bced-bd7f-433f-ade8-9eba1b5fd21a",
+						"id": "bae08ac5-61a3-4311-a33a-9e16d7530637",
 						"type": "text/javascript",
 						"exec": [
 							"console.log(pm.collectionVariables.get(\"aaaa\"));"
@@ -251,7 +251,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "737206d4-7a76-4a3d-b599-a737f19cef67",
+						"id": "d196dad1-6c58-4ca9-bd8b-9cad7839b353",
 						"type": "text/javascript",
 						"exec": [
 							"console.log(pm.collectionVariables.get(\"aaaa\"));"
@@ -263,14 +263,14 @@
 		{
 			"name": "Agency",
 			"item": [],
-			"id": "d3387a38-a3fb-48d5-a984-3912efa38117"
+			"id": "e40e1847-debe-4cc8-8c03-016a5a567f80"
 		}
 	],
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "8d6b3a36-f457-45b4-86ad-d380a76ded33",
+				"id": "b2c2ca12-a834-46ba-aff3-9e17165fa034",
 				"type": "text/javascript",
 				"exec": [
 					"console.log(pm.collectionVariables.get(\"aaaa\"));"
@@ -280,7 +280,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "66ed0fc6-6df1-40a5-8405-112622b089a6",
+				"id": "85234934-ac15-4d74-abc3-c6c0c0b84346",
 				"type": "text/javascript",
 				"exec": [
 					"console.log(pm.collectionVariables.get(\"aaaa\"));"
