@@ -63,7 +63,7 @@
 							}
 						},
 						"url": {
-							"raw": "www.naver.com?param1={{aaaa}}&param2=param22",
+							"raw": "www.naver.com?param1={{aaaa}}&param2=param222",
 							"host": [
 								"www",
 								"naver",
@@ -77,8 +77,8 @@
 								},
 								{
 									"key": "param2",
-									"value": "param22",
-									"description": "param22"
+									"value": "param222",
+									"description": "param222"
 								}
 							]
 						}
